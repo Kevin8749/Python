@@ -1,0 +1,10 @@
+import random 
+Primeiro = random.randint(0,10)
+Segundo = random.randint(0,10)
+Terceiro = random.randint(0,10)
+Quarto = random.randint(0,10)
+Quinto = random.randint(0,10)
+Valores = (Primeiro,Segundo,Terceiro,Quarto,Quinto)
+print(f"Os valores foram: {Valores}",end="\n")
+print(f"O maior foi: {max(Valores)}")
+print(f"O menor foi: {min(Valores)}")
